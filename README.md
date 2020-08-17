@@ -18,9 +18,6 @@ def criar_labirinto(p1=420, p2=420, p3=370, p4=100):
    hideturtle()
    speed(0)
     
-   # IMPLEMENTE A LÓGICA A SEGUIR
-   # Para cada celula (i,j) da matriz que for caminho desenhe uma celula
-    
    matriz = ler_matriz()
    for matriz_linha_idx, matriz_linha in enumerate(matriz):
        for matriz_coluna_idx, matriz_coluna in enumerate(matriz_linha):
@@ -30,7 +27,6 @@ def criar_labirinto(p1=420, p2=420, p3=370, p4=100):
                
 def desenhar_celula(xt, yt, cor='blue'):
     """ Dada uma coordenada (xt, yt) do Turtle, desenha um quadrado (célula) na posição """
-    # IMPLEMENTE A LÓGICA ESPECIFICADA AQUI
     
    tam_quadrado = 20
     
@@ -49,7 +45,6 @@ def desenhar_celula(xt, yt, cor='blue'):
    
 def em_coord_turtle(xm, ym):
   """ Dada uma coordenada da matriz (i,j) transforma em coordenada Turtle """
-  # IMPLEMENTE A LÓGICA ESPECIFICADA AQUI
    matriz = ler_matriz()
     
    screensize = (420, 420)
