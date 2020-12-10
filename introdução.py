@@ -1,4 +1,4 @@
-# Projeto de Estrutura de dados PACMAN
+# Projeto de Estrutura de dados PACMAN POLICIAL
 # integrantes: Bruno Lira e Victor Couto
 
 
