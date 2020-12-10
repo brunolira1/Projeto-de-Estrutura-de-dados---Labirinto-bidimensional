@@ -1,2 +1,2 @@
 # Projeto de Estrutura de dados PACMAN
-# integrantes: Bruno Lira, Victor Couto, Guilherme Moreira
+# integrantes: Bruno Lira e Victor Couto
